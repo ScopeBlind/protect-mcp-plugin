@@ -88,7 +88,7 @@ harmless allowed call and a denied call through the route you intend to use.
 
 ## Contribute and report problems
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks. Report documentation or
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to check a change. Report documentation or
 compatibility problems through this repository's
 [issues](https://github.com/ScopeBlind/protect-mcp-plugin/issues), including the
 plugin version, host version and a minimal example with sensitive data removed.
