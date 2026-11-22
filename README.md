@@ -19,7 +19,7 @@ The plugin is version **1.1.1**. Its examples use **protect-mcp 0.32.5** and
 
 ## Install
 
-In Claude, open the plugin directory, find **protect-mcp** by **tomjwxf**, and
+In Claude, open the plugin directory, find **protect-mcp** by **ScopeBlind**, and
 install it. This repository is the source of that existing directory listing.
 The directory keeps its last approved release until Anthropic publishes an
 update; its displayed version may therefore lag this repository.
@@ -27,7 +27,7 @@ update; its displayed version may therefore lag this repository.
 For a local preview in Claude Code:
 
 ```sh
-git clone https://github.com/tomjwxf/protect-mcp-plugin.git
+git clone https://github.com/ScopeBlind/protect-mcp-plugin.git
 claude --plugin-dir ./protect-mcp-plugin
 ```
 
@@ -90,7 +90,7 @@ harmless allowed call and a denied call through the route you intend to use.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks. Report documentation or
 compatibility problems through this repository's
-[issues](https://github.com/tomjwxf/protect-mcp-plugin/issues), including the
+[issues](https://github.com/ScopeBlind/protect-mcp-plugin/issues), including the
 plugin version, host version and a minimal example with sensitive data removed.
 Report security issues privately to **security@scopeblind.com**.
 

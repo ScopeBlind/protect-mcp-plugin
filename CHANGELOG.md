@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Move the repository to the ScopeBlind GitHub organization. The manifest names
+  ScopeBlind as author and the new repository address.
+
 ## 1.1.1
 
 - Pin the gateway and verifier examples, the static checks and the clean-install
