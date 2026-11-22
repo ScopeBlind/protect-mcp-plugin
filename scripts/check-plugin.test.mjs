@@ -17,7 +17,7 @@ test('published identity is preserved and directs users to public maintained sou
   assert.equal(manifest.name, 'protect-mcp');
   assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
   assert.notEqual(manifest.version, '1.0.0', 'A changed plugin must have a new plugin version');
-  assert.equal(manifest.repository, 'https://github.com/tomjwxf/protect-mcp-plugin');
+  assert.equal(manifest.repository, 'https://github.com/ScopeBlind/protect-mcp-plugin');
   assert.equal(manifest.homepage, 'https://scopeblind.com/protect-mcp');
   assert.equal(manifest.license, 'MIT');
   assert.ok(existsSync(join(root, 'LICENSE')));
