@@ -1,7 +1,7 @@
 {
   "name": "protect-mcp",
   "description": "Guided setup for protect-mcp policy checks, shadow and enforcement workflows, and signed receipt verification with an expected public key. Installing this plugin does not enable enforcement; you choose and test the gateway configuration.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Tom Farley",
     "email": "tommy@scopeblind.com"

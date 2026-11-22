@@ -1,9 +1,11 @@
 # Changelog
 
-## Unreleased
+## 1.1.1
 
 - Pin the gateway and verifier examples, the static checks and the clean-install
-  smoke test to protect-mcp 0.32.4 and @veritasacta/verify 0.11.1.
+  smoke test to protect-mcp 0.32.5 and @veritasacta/verify 0.11.1. protect-mcp
+  0.32.5 refuses to start an enforcing gate whose policy option is misspelled,
+  empty or missing, or whose policy does not load.
 
 ## 1.1.0
 
