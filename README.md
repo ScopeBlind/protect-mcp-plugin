@@ -14,7 +14,7 @@ relying on it.
 | `/protect-mcp:verify` | Check receipt signatures using the public key you expect. |
 | `/protect-mcp:red-team` | Run a harmless policy and receipt check in a disposable directory. |
 
-The plugin is version **1.1.0**. Its examples use **protect-mcp 0.32.4** and
+The plugin is version **1.1.1**. Its examples use **protect-mcp 0.32.5** and
 **@veritasacta/verify 0.11.1**. Plugin and npm package versions are separate.
 
 ## Install

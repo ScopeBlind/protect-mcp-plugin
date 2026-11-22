@@ -35,7 +35,7 @@ test('all executable package examples use reviewed pins or the already installed
     const text = read(path);
     for (const line of text.split('\n').filter(line => /\bnpx\b/.test(line))) {
       if (/\bnpx\s+--no-install\s+(protect-mcp|verify)\b/.test(line)) continue;
-      if (/\bprotect-mcp\b/.test(line)) assert.match(line, /protect-mcp@0\.32\.4\b/, `${path}: unpinned gateway: ${line}`);
+      if (/\bprotect-mcp\b/.test(line)) assert.match(line, /protect-mcp@0\.32\.5\b/, `${path}: unpinned gateway: ${line}`);
       if (/@veritasacta\/verify/.test(line)) assert.match(line, /@veritasacta\/verify@0\.11\.1\b/, `${path}: unpinned verifier: ${line}`);
     }
     assert.doesNotMatch(text, /(?:protect-mcp|@veritasacta\/verify)@latest\b/, path);
