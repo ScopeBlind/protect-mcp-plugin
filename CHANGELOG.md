@@ -1,9 +1,13 @@
 # Changelog
 
-## Unreleased
+## 1.1.2
 
 - Move the repository to the ScopeBlind GitHub organization. The manifest names
   ScopeBlind as author and the new repository address.
+- Remove the test scripts, fixtures and CI workflow from the repository. The
+  directory accepts files outside a plugin's own from Verified organizations
+  only, and refused 1.1.1 for them. The skills and their pinned versions are
+  unchanged.
 
 ## 1.1.1
 

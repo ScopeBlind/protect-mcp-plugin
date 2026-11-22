@@ -9,22 +9,17 @@ must not silently install host hooks, start a service, grant authority or claim
 enforcement without a tested route. Preserve existing workflow names when an
 update is compatible.
 
-Use Node.js 22 or later. Run the repository's checks before opening a pull
-request:
-
-```sh
-node --test scripts/check-plugin.test.mjs
-node scripts/clean-install-smoke.mjs
-```
-
-The smoke test downloads the pinned public npm packages into a disposable
-directory, then checks a synthetic MCP server, Cedar decisions and signed
-receipts. It does not use your project configuration or real tool servers.
-With Claude Code installed, also validate the plugin:
+This repository holds only the plugin's own files: the directory accepts other
+files here only from Verified organizations, so the test scripts and CI that
+1.1.0 added were removed in 1.1.2 (they remain in the history). Before opening a
+pull request, validate the plugin with Claude Code:
 
 ```sh
 claude plugin validate --strict .
 ```
+
+Then check by hand that every `protect-mcp` and `@veritasacta/verify` command in
+`skills/` names an exact published version, and that the examples still run.
 
 Describe the behavior changed and the checks run in the pull request. Never
 include private keys, credentials, customer transcripts or private repository
